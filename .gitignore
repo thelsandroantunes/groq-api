@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Docker
+docker-compose.override.yml
+*.log
+*.pid
+*.swp
+*~
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Milvus (Vector Database)
+milvus/
+*.milvus
+
+# Pytest Cache
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# Build and Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Miscellaneous
+*.bak
+*.tmp
+*.old
